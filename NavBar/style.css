@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+.container1{
+    display: flex;
+    padding: 0px 60px; 
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid grey;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px 16px; 
+    text-decoration: none; 
+} 
+li a{ 
+    text-decoration: none;
+    color: grey;
+    opacity: .7;
+    font-size: 18px;
+} 
+.logo{
+    border-right: 1px solid black;
+    padding: 20px 60px 15px 15px;
+}
+.logo img{
+    width: 150px;
+}
+.nav-bar{
+    padding-top: 10px;
+}
+.heading{
+    color: solid black;
+    font-weight: bolder;
+    font-size: large;
+}
+.alpha{
+    border-left: 1px solid black;
+    position: absolute;
+    right: 200px;
+    top: 20px;
+    padding-left: 100px;
+}
+.alpha img{
+    width: 200px;
+}

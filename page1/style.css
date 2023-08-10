@@ -1,0 +1,134 @@
+body {
+    background-image: url("pics/background.png");
+    background-position: center right;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+}
+
+.container1 {
+    margin-top: 30px;
+    padding-left: 160px;
+    padding-bottom: 40px;
+}
+
+.image {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.heading h1 {
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.para p {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: -30px;
+}
+
+.input-field {
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid rgb(107, 104, 104);
+
+    border-radius: 5px;
+    width: 180px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 29px;
+}
+
+.input {
+    padding-left: 10px;
+    max-width: 100px;
+    outline: transparent;
+    border: none;
+}
+
+.icon {
+    width: 15px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+/* .btn {
+    width: 200px;
+    background-color: rgb(212, 97, 188);
+    padding: 10px 4px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+} */
+
+.link {
+    margin-top: 20px;
+    text-decoration: underline;
+    padding-left: 15px;
+    color: rgb(22, 22, 22);
+    opacity: .6;
+}
+
+.account {
+    text-align: center;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.container2 {
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.logo {
+    margin: 0px;
+    padding-left: 122px;
+    height: 25px;
+    width: 200px;
+}
+
+.footer-p {
+    width: 170px;
+    height: 50px;
+    padding-left: 160px;
+    color: rgb(107, 104, 104);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    text-decoration: none;
+    padding-left: 160px;
+    padding-bottom: 18px;
+}
+
+a {
+    color: rgb(107, 104, 104);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.container3 {
+    padding-top: 30px;
+    display: flex;
+    background-color: rgb(243, 238, 238);
+    width: 100%;
+    height: 165px;
+}

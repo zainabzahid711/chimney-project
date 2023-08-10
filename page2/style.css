@@ -1,0 +1,158 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+.section{
+    position: relative;
+}
+.left-section{
+    margin-top: 100px;
+    padding-left: 220px;
+    position: relative;
+    background: #FFFFFF;
+}
+.top-logo{
+    width: 159.85px;
+    height: 39.17px;
+}
+.main-heading{
+    font-style: normal;
+    margin: 40px 0px;
+    font-size: 49px;
+    line-height: 100%;
+    color: #202127;
+}
+.main-text{
+    margin-top: 10px;
+    font-size: 21px;
+    line-height: 125%;
+    color: #41434A;
+}
+.display{
+    display: flex;
+    margin-top: 10px;
+}
+.input-field{
+    border: 1px solid rgb(187, 186, 186);
+    height: 40px;
+    width: 280px;
+    display: flex;
+    border-radius: 8px;
+}
+.email-icon{
+    margin: 10px 0px;
+    width: 30px;
+    height: 20px;
+}
+.input{
+    margin: 6px 0px;
+    height: 25px;
+    width: 80%;
+    border: none;
+}
+::placeholder{
+    color: black;
+}
+.signup-button{
+    border: none;
+    color: white;
+    margin-left: 10px;
+    border-radius: 8px;
+    width: 10%;
+    background: linear-gradient(135deg, #FF92E2 1%, #932C6E 91%);
+}
+.lower-heading{
+    margin-top: 70px;
+    color: gray;
+    opacity: .9;
+}
+.lower-text{
+    margin-top: 30px;
+    color: grey;
+    opacity: .9;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+.arrow{
+    position: absolute;
+    right: 90%;
+    top: 20%;
+    height: 60px;
+}
+.right-section{
+    position: absolute;
+    width: 590px;
+    height: 770px;
+    left: 800px;
+    top: -100px;
+    background: #F1F2F2;
+}
+.frame{
+    margin: 250px 100px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+.logoss{
+    display: flex;
+    position: absolute;
+    width: 257.11px;
+    height: 256.85px;
+    right: 147.23px;
+    bottom: 280.44px;
+
+    opacity: 0.5;
+    filter: blur(35px);
+    transform: rotate(60deg);
+}
+.light-logo{
+    position: absolute;
+    left: 38.31%;
+    right: 29.1%;
+    top: 43.68%;
+    bottom: -5.48%;
+
+/* background: #2BF2FF; */
+transform: matrix(0.99, -0.17, 0.12, 0.99, 0, 0);
+}
+.drop{
+    /* height: 20px; */
+    position: absolute;
+    right: 50.38%;
+    top: 40.09%;
+    bottom: 38.6%;
+    opacity: .9;
+
+/* background: #FF92E2; */
+transform: rotate(-120deg);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+}
+.sec1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.sec2{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+h6{
+    font-size: 15px;
+    color: grey;
+    opacity: .3;
+}
+.txt{
+    color: grey;
+    opacity: .9;
+    font-size: 15px;
+}
